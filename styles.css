@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.inputBox {
+  background: #f44336;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.eraseBtn {
+}
+
+li {
+  padding: 12px 8px 12px 40px;
+  background: gray;
+  font-size: 12px;
+  transition: 0.25s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+li:nth-child(odd) {
+  background: lightgray;
+}
+
+li:hover {
+  background: lightyellow;
+}
+
+.header {
+  background-color: #f44336;
+  padding: 30px 40px 0px;
+  color: white;
+  text-align: center;
+}
+
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input {
+  margin: 0%;
+  border: none;
+  border-radius: 0;
+  width: 80%;
+  padding: 10px;
+  float: left;
+  font-size: 11.5px;
+}
+
+.button {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100px;
+  background: #d9d9d9;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: #bbb;
+}
