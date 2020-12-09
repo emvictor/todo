@@ -12,15 +12,20 @@
 ul {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0;
   padding: 0;
 }
 
 .eraseBtn {
+  border: none;
+  border-radius: 5px;
 }
 
 li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   padding: 12px 8px 12px 40px;
   background: gray;
   font-size: 12px;

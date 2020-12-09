@@ -28,7 +28,7 @@ function renderTodos() {
 
 function addBtn() {
   if (inputElement.value == "") {
-    alert("You didn't typed a To Do. Please try again.");
+    alert("You didn't type a To Do. Please try again.");
   } else {
     const todoText = inputElement.value;
     toDos.push(todoText);
